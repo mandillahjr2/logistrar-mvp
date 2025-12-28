@@ -12,4 +12,4 @@ import subprocess
 
 # Run monitor
 print("Testing MVP monitor...")
-subprocess.run(['python3', '/home/mandillahjr/Documents/Code/Projects/Logistrar/ip-monitor-mvp/monitor.py', '-f', '/home/mandillahjr/Documents/Code/Projects/Logistrar/ip-monitor-mvp/traffic.log'])
+subprocess.run(['python3', 'monitor.py', '-f', 'traffic.log'])
